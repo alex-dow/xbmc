@@ -1,9 +1,10 @@
 import xbmc
+import xbmcaddon
 import time
 
 RUN = True
 
-SELF = xbmc.Addon('service.psikon.bgmusic')
+SELF = xbmcaddon.Addon(id='service.psikon.bgmusic')
 
 def should_play():
 	media = SELF.getSetting('psikon.media')
