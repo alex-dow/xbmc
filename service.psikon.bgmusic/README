@@ -2,3 +2,16 @@ psikon.service.bgmusic
 ======================
 
 A background service to play audio files whenever XBMC is not currently playing something.
+
+Installation
+============
+
+First install the Psikon Repository, visit https://github.com/v0idnull/xbmc for more information.
+
+Once installed, browse to the Psikon Repository in XBMC's Addon page. Under services, install BG Music.
+
+
+Configuration
+=============
+
+Simply select the audio media you want to play. Any audio media format will suffice, including playlists.

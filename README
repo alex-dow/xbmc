@@ -2,3 +2,14 @@ Psikon XBMC Repo
 ================
 
 Various plugins I have made for myself
+
+
+Installation
+============
+
+Download the following file:
+
+https://github.com/v0idnull/xbmc/blob/master/repo/repository.psikon/repository.psikon-0.0.1.zip?raw=true
+
+Then use XBMC to install the add on. 
+From here, you can browse the various packages of the Psikon XBMC repository.
