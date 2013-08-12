@@ -16,7 +16,7 @@
 
 <addon id="service.psikon.bgmusic"
        name="Psikon BG Music"
-      version="0.0.7"
+      version="0.0.7.1"
       provider-name="Psikon">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>

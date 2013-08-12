@@ -1,5 +1,6 @@
 import xbmc
 import xbmcaddon
+import xbmcgui
 import time
 
 SELF = xbmcaddon.Addon(id='service.psikon.bgmusic')
@@ -9,7 +10,7 @@ def should_play():
 	if not media:
 		return false
         
-    if xbmcgui.Window(10000).getProperty("PseudoTVRunning") == "True":
+    if xbmcgui.Window(10000).getProperty("PseudoTVRunning") in ["True", True]:
         return false
         
 	return not xbmc.getCondVisibility("Player.Playing")
