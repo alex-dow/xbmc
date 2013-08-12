@@ -8,6 +8,10 @@ def should_play():
 	media = SELF.getSetting('psikon.media')
 	if not media:
 		return false
+        
+    if xbmcgui.Window(10000).getProperty("PseudoTVRunning") == "True":
+        return false
+        
 	return not xbmc.getCondVisibility("Player.Playing")
 
 
