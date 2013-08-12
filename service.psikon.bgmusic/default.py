@@ -2,8 +2,6 @@ import xbmc
 import xbmcaddon
 import time
 
-RUN = True
-
 SELF = xbmcaddon.Addon(id='service.psikon.bgmusic')
 
 def should_play():
@@ -14,16 +12,12 @@ def should_play():
 
 
 def playmusic(media):
-
-	
 	xbmc.executebuiltin("PlayMedia(%s)" % media)
 	xbmc.executebuiltin("PlayerControl(RandomOn)")
-	bg_active = True
+	xbmc.enableNavSounds(True)
 
 	
-
-	
-while RUN: 
+while not xbmc.abortRequested: 
 	if (should_play()):
 		playmusic(SELF.getSetting('psikon.media'))
 		
