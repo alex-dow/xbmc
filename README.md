@@ -1,4 +1,4 @@
-bgmusic
-=======
+Psikon XBMC Repo
+================
 
-An XBMC Frodo (12.x) plugin to play background music when idle
+Various plugins I have made for myself

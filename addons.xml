@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="service.psikon.bgmusic"
+       name="Psikon BG Music"
+      version="0.0.1"
+      provider-name="Psikon">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.service" library="default.py" start="login"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">
+			Psikon BG Music plays ambient music in the background when nothing
+			else is playing.
+		</summary>
+		<description lang="en">
+			Psikon BG Music plays ambient music in the background when nothing
+			else is playing.
+		</description>
+        <platform>all</platform>
+        <website>http://psikon.com</website>
+        <email>v0idnull@psikon.com</email>
+    </extension>
+</addon>
+</addons>

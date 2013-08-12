@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<strings>
+	<string id="psikon.settings">Settings</string>
+	<string id="psikon.media">Media File</string>
+	
+	<string id="psikon.description">Choose any media file to play in the background</string>
+</strings>
