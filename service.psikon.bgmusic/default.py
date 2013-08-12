@@ -7,7 +7,7 @@ SELF = xbmc.Addon('service.psikon.bgmusic')
 
 def should_play():
 	media = SELF.getSetting('psikon.media')
-	if !media:
+	if not media:
 		return false
 	return not xbmc.getCondVisibility("Player.Playing")
 
