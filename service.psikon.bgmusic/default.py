@@ -10,9 +10,9 @@ def should_play():
 	if not media:
 		return false
         
-    if xbmcgui.Window(10000).getProperty("PseudoTVRunning") in ["True", True]:
-        return false
-        
+	if xbmcgui.Window(10000).getProperty("PseudoTVRunning") in ["True", True]:
+		return false
+    
 	return not xbmc.getCondVisibility("Player.Playing")
 
 
