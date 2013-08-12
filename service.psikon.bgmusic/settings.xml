@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
     <category label="psikon.settings">
-        <setting label="psikon.media" type="text"   id="username" default=""/>
+        <setting label="psikon.media" type="audio" id="psikon.media" default=""/>
     </category>
 </settings>
