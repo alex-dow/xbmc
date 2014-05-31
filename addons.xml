@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-  <addon id="repository.psikon" name="Psikon Repo" version="1.0.0" provider-name="Psikon">
-    <extension point="xbmc.addon.repository" name="Psikon Repo">
-    <info>https://github.com/v0idnull/xbmc/raw/master/addons.xml</info>
-    <checksum>https://github.com/v0idnull/xbmc/raw/master/addons.xml.md5</checksum>
-    <datadir zip="true">https://github.com/v0idnull/xbmc/raw/master/repo</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-    <summary lang="en">Psikon Repo</summary>
-	<description lang="en">A collection of useful plugins for XBMC.</description>
-	<disclaimer lang="en">No promises ;)</disclaimer>
-	<platform>all</platform>
-    </extension>
-  </addon>
-
 <addon id="service.psikon.bgmusic"
        name="Psikon BG Music"
       version="0.0.8"
@@ -33,5 +19,29 @@
         <website>http://psikon.com</website>
         <email>v0idnull@psikon.com</email>
     </extension>
+</addon>
+
+  <addon id="repository.psikon" name="Psikon Repo" version="1.0.0" provider-name="Psikon">
+    <extension point="xbmc.addon.repository" name="Psikon Repo">
+    <info>https://github.com/v0idnull/xbmc/raw/master/addons.xml</info>
+    <checksum>https://github.com/v0idnull/xbmc/raw/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://github.com/v0idnull/xbmc/raw/master/repo</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+    <summary lang="en">Psikon Repo</summary>
+	<description lang="en">A collection of useful plugins for XBMC.</description>
+	<disclaimer lang="en">No promises ;)</disclaimer>
+	<platform>all</platform>
+    </extension>
+  </addon>
+
+<addon id="screensaver.psikon" name="Psikon Screensaver" provider-name="psikon" version="0.0.7">
+
+	<extension library="default.py" point="xbmc.ui.screensaver" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Psikon Screensaver</summary>
+		<description lang="en">Psikon Screensaver</description>
+		<platform>all</platform>
+	</extension>
 </addon>
 </addons>

@@ -1,0 +1,29 @@
+{
+  "name": "screensaver.psikon.web",
+  "version": "0.0.1",
+  "homepage": "https://github.com/v0idnull/xbmc",
+  "authors": [
+    "v0idnull <v0idnull@gmail.com>"
+  ],
+  "keywords": [
+    "xbmc"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "*",
+    "underscore": "1.6.0",
+    "requirejs": "*",
+    "backbone": "*",
+    "rickshaw": "*"
+  },
+  "devDependencies": {
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

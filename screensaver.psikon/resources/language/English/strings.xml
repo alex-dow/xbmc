@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<strings>
+	<string id="90000">Settings</string>
+	<string id="90001">Browser Command</string>
+	<string id="90002">Browser arguments</string>
+    <string id="90003">URL</string>
+</strings>
