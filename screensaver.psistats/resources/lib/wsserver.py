@@ -26,7 +26,7 @@ connection = pika.BlockingConnection(pika.ConnectionParameters(
 
 channel = connection.channel()
 
-channel.queue_declare(queue=options['queue'], durable=False, auto_delete=True, arguments={'x-message-ttl': 10000})
+channel.queue_declare(queue=options['queue'], durable=False, auto_delete=True, arguments={'x-message-ttl': 30000})
 channel.queue_bind(queue=options['queue'], exchange=options['psistats-exchange'], routing_key=options['psistats-prefix'] + '.*')
 
 def callback(ch, method, properties, body):
@@ -68,7 +68,7 @@ class DoWork(threading.Thread):
                             continue
                         print j_str
                         self.ws.send(j_str, False)
-                        time.sleep(0.1)
+                        time.sleep(0.01)
                         self.msg_counter = self.msg_counter  + 1
                     else:
                         break
