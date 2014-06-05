@@ -1,4 +1,4 @@
-<addon id="screensaver.psikon" name="Psistats Screensaver" provider-name="psikon" version="0.0.7">
+<addon id="screensaver.psistats" name="Psistats Screensaver" provider-name="psikon" version="0.0.9">
     
 	<extension library="default.py" point="xbmc.ui.screensaver" />
 	<extension point="xbmc.addon.metadata">

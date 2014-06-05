@@ -21,6 +21,16 @@
     </extension>
 </addon>
 
+<addon id="screensaver.psistats" name="Psistats Screensaver" provider-name="psikon" version="0.0.9">
+
+	<extension library="default.py" point="xbmc.ui.screensaver" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Psistats Screensaver</summary>
+		<description lang="en">Psistats Screensaver</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
   <addon id="repository.psikon" name="Psikon Repo" version="1.0.0" provider-name="Psikon">
     <extension point="xbmc.addon.repository" name="Psikon Repo">
     <info>https://github.com/v0idnull/xbmc/raw/master/addons.xml</info>
@@ -34,14 +44,4 @@
 	<platform>all</platform>
     </extension>
   </addon>
-
-<addon id="screensaver.psikon" name="Psikon Screensaver" provider-name="psikon" version="0.0.7">
-
-	<extension library="default.py" point="xbmc.ui.screensaver" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Psikon Screensaver</summary>
-		<description lang="en">Psikon Screensaver</description>
-		<platform>all</platform>
-	</extension>
-</addon>
 </addons>
